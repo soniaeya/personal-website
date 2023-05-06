@@ -1,14 +1,18 @@
 import React from 'react';
 import styled from "styled-components";
 
-const TitlePage = () => {
+const First = () => {
     return (
         <StyledPageContainer>
             <Content>
-            <div style={{color: "white", fontSize: 90}}>CUTEA</div>
+            <div style={{color: "white", fontSize: 120, padding: 50}}>Sonia's Website</div>
             </Content>
             <Youtube>
-                <div style={{color: "black", fontSize: 90}}>CUTEA</div>
+                <div style={{color: "black", fontSize: 70, padding: 20}}>
+                    Hello!
+                    <br/>
+                    My name is Sonia and I am a second year Computer Science Student, welcome to my website!
+                </div>
             </Youtube>
         </StyledPageContainer>
     );
@@ -26,23 +30,24 @@ const StyledPageContainer = styled.div`
   padding: 20px;
 `
 const Content = styled.div`
+    top: 0px;
     background-color: lightpink;
       height: 500px;
       width: 500px;
-      postition: relative;
-  display: inline-block;
+  margin-left: 10%;
+  margin-top: 8%;
       z-index: -1;
       order: 999;
-  margin-top: 100px;
 `
 const Youtube = styled.div`
+  top: 15%;
   background-color: khaki;
-  height: 700px;
-  width: 500px;
-  display: inline-block;
-  postition: relative;
-  margin-left: 15%;
-  z-index: -1;
+  height: 750px;
+  width: 550px;
+  margin-top: 0%;
+  margin-left: 40%;
+  z-index: 1;
   order: 999;
+  position: absolute;
 `
-export default TitlePage;
+export default First;
