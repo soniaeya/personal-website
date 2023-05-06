@@ -12,14 +12,11 @@ import styled from "styled-components";
 
 export default function ResponsiveAppBar() {
     const navItems = [
-        { name: 'About', path: '/about' },
-        // { name: 'School of Tea', path: '/school' },
-        { name: 'FAQ', path: '/faq' },
-        { name: 'Events', path: '/events' },
-        // { name: 'Create a Tea Club', path: '/create' },
-        { name: 'Products', path: '/products' },
-        { name: 'Join', path: '/join' },
-        // { name: 'Contact Us', path: '/contact' },
+        { name: 'Home', path: '/' },
+        { name: 'University', path: '/university' },
+        { name: 'Blog', path: '/blog' },
+        { name: 'Culture', path: '/culture' },
+        { name: 'Hobbies', path: '/hobbies' },
     ];
 
     return (

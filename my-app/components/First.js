@@ -8,9 +8,9 @@ const First = () => {
             <div style={{color: "white", fontSize: 120, padding: 50}}>Sonia's Website</div>
             </Content>
             <Youtube>
-                <div style={{color: "black", fontSize: 70, padding: 20}}>
+                <div style={{color: "black", fontSize: 40, padding: 20}}>
                     Hello!
-                    <br/>
+                    <br/><br/>
                     My name is Sonia and I am a second year Computer Science Student, welcome to my website!
                 </div>
             </Youtube>
