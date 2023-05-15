@@ -5,13 +5,15 @@ const First = () => {
     return (
         <StyledPageContainer>
             <Content>
-            <div style={{color: "white", fontSize: 120, padding: 50}}>Sonia's Website</div>
+            <div style={{color: "white", fontSize: 100, padding: 50}}>Hi, I'm Sonia Li
+            </div>
+
+
             </Content>
             <Youtube>
-                <div style={{color: "black", fontSize: 40, padding: 20}}>
-                    Hello!
-                    <br/><br/>
-                    My name is Sonia and I am a second year Computer Science Student, welcome to my website!
+                <div style={{color: "grey", fontSize: 30, padding: 20}}>
+
+                    As a computer science student from Montreal, I like to learn new things and meet new people.
                 </div>
             </Youtube>
         </StyledPageContainer>
